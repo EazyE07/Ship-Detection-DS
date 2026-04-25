@@ -1,0 +1,14 @@
+path: C:\Studium\Semester 5\Data Science Projekt\data\processed\ship_data
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['Aircraft Carrier', 'Auxiliary Ships', 'Barge', 'Cargo', 'Commander', 'Container Ship', 'Cruiser', 'Destroyer', 'Dock', 'Ferry', 'Fishing Vessel', 'Frigate', 'Hovercraft', 'Landing', 'Motorboat', 'Oil Tanker', 'Other Merchant', 'Other Ship', 'Other Warship', 'Patrol', 'RoRo', 'Sailboat', 'Submarine', 'Tugboat', 'Yacht']
+
+roboflow:
+  workspace: playground-v6gip
+  project: ship-detection-mdpqd
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/playground-v6gip/ship-detection-mdpqd/dataset/2

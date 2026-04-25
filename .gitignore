@@ -1,0 +1,17 @@
+# Daten & Bilder (viel zu groß für GitHub)
+data/
+datasets/
+
+# Trainings-Ergebnisse & Gewichte
+runs/
+*.pt
+*.onnx
+
+# Python Systemdateien
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.vscode/
+
+# Große Log-Dateien
+*.log
