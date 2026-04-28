@@ -13,3 +13,10 @@ SHIP_MAPPING = {
         'Tugboat', 'Yacht'
     ]
 }
+
+CAT_COLORS = {
+    'Military': (0, 0, 255),      # Rot
+    'Logistics': (255, 0, 0),     # Blau
+    'Civilian/Other': (0, 255, 0), # Grün
+    'Unknown': (128, 128, 128)    # Grau
+}
