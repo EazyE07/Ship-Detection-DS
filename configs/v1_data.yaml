@@ -1,4 +1,4 @@
-path: C:\Studium\Semester 5\Data Science Projekt\data\processed\ship_data
+path: ../data/processed/ship_data
 train: ../train/images
 val: ../valid/images
 test: ../test/images

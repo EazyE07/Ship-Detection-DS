@@ -1,17 +1,20 @@
-# Daten & Bilder (viel zu groß für GitHub)
+# Data & images (far too large for GitHub)
 data/
 datasets/
 
-# Trainings-Ergebnisse & Gewichte
+# Training results & weights
 runs/
 *.pt
+!models/final_weights/v2_3classes_best.pt
 *.onnx
 
-# Python Systemdateien
+# Python system files
 __pycache__/
 .venv/
 .ipynb_checkpoints/
 .vscode/
 
-# Große Log-Dateien
+# Large log files
 *.log
+# Compiled Python
+*.pyc

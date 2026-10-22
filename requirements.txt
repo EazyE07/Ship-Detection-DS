@@ -1,0 +1,5 @@
+ultralytics
+opencv-python
+matplotlib
+jupyter
+roboflow  # only needed for the Colab training notebook
